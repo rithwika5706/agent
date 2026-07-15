@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Database
+chat_memory.db
+chat_memory.db-shm
+chat_memory.db-wal
+
+# Chroma/LanceDB (optional if generated)
+memory_db/
